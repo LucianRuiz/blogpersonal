@@ -1,0 +1,126 @@
+src/main/java/com/luciano/blogpersonal/
+├── common/
+│   ├── dto/
+│   │   ├── ApiResponse.java ✓
+│   │   └── PaginatedResponse.java ✓
+│   ├── exception/
+│   │   ├── GlobalExceptionHandler.java ✓
+│   │   ├── ResourceNotFoundException.java ✓
+│   │   └── BlogApiException.java ✓
+│   └── utils/
+│       ├── AppConstants.java ✓
+│       └── SlugUtils.java ✓
+│
+├── security/
+│   ├── controller/
+│   │   └── AuthController.java ✓
+│   ├── dto/
+│   │   ├── LoginRequest.java ✓
+│   │   └── JwtAuthResponse.java ✓
+│   ├── jwt/
+│   │   ├── JwtTokenProvider.java ✓
+│   │   ├── JwtAuthenticationFilter.java ✓
+│   │   └── JwtAuthenticationEntryPoint.java ✓
+│   ├── service/
+│   │   ├── AuthService.java ✓
+│   │   └── impl/
+│   │       └── AuthServiceImpl.java ✓
+│   └── UserDetailsServiceImpl.java ✓
+│
+├── user/
+│   ├── controller/
+│   │   └── UserController.java ✓
+│   ├── model/
+│   │   └── User.java ✓
+│   ├── dto/
+│   │   ├── UserCreateRequest.java ✓
+│   │   ├── UserUpdateRequest.java ✓
+│   │   ├── UserPasswordUpdateRequest.java ✓
+│   │   └── UserResponse.java ✓
+│   ├── repository/
+│   │   └── UserRepository.java ✓
+│   ├── mapper/
+│   │   └── UserMapper.java ✓
+│   └── service/
+│       ├── UserService.java ✓
+│       └── impl/
+│           └── UserServiceImpl.java ✓
+│
+├── post/
+│   ├── controller/
+│   │   └── PostController.java ✓
+│   ├── model/
+│   │   └── Post.java ✓
+│   ├── dto/
+│   │   ├── PostCreateRequest.java ✓
+│   │   ├── PostUpdateRequest.java ✓
+│   │   ├── PostResponse.java ✓
+│   │   └── PostSummaryResponse.java ✓
+│   ├── mapper/
+│   │   └── PostMapper.java ✓
+│   ├── repository/
+│   │   └── PostRepository.java ✓
+│   └── service/
+│       ├── PostService.java ✓
+│       └── impl/
+│           └── PostServiceImpl.java ✓
+│
+├── comment/
+│   ├── controller/
+│   │   └── CommentController.java ✓
+│   ├── model/
+│   │   └── Comment.java ✓
+│   ├── dto/
+│   │   ├── CommentCreateRequest.java ✓
+│   │   ├── CommentUpdateRequest.java ✓
+│   │   └── CommentResponse.java ✓
+│   ├── mapper/
+│   │   └── CommentMapper.java ✓
+│   ├── repository/
+│   │   └── CommentRepository.java ✓
+│   └── service/
+│       ├── CommentService.java ✓
+│       └── impl/
+│           └── CommentServiceImpl.java ✓
+│
+├── category/
+│   ├── controller/
+│   │   └── CategoryController.java ✓
+│   ├── model/
+│   │   └── Category.java ✓
+│   ├── dto/
+│   │   ├── CategoryCreateRequest.java ✓
+│   │   ├── CategoryUpdateRequest.java ✓
+│   │   └── CategoryResponse.java ✓
+│   ├── mapper/
+│   │   └── CategoryMapper.java ✓
+│   ├── repository/
+│   │   └── CategoryRepository.java ✓
+│   └── service/
+│       ├── CategoryService.java ✓
+│       └── impl/
+│           └── CategoryServiceImpl.java ✓
+│
+├── tag/
+│   ├── controller/
+│   │   └── TagController.java ✓
+│   ├── model/
+│   │   └── Tag.java ✓
+│   ├── dto/
+│   │   ├── TagCreateRequest.java ✓
+│   │   ├── TagUpdateRequest.java ✓
+│   │   └── TagResponse.java ✓
+│   ├── mapper/
+│   │   └── TagMapper.java ✓
+│   ├── repository/
+│   │   └── TagRepository.java ✓
+│   └── service/
+│       ├── TagService.java ✓
+│       └── impl/
+│           └── TagServiceImpl.java ✓
+│
+├── config/
+│   ├── SecurityConfig.java ✓
+│   └── WebConfig.java ✓
+│
+└── BlogPersonalApplication.java ✓

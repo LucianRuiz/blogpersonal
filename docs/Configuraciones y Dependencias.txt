@@ -1,0 +1,19 @@
+Dependencias seleccionadas:
+
+Spring Web
+Spring Data JPA
+Spring Security
+Lombok
+Validation
+MySQL Driver (o PostgreSQL Driver)
+
+Configuración del proyecto:
+
+Tipo de proyecto: Maven
+Versión de Spring Boot: 3.4.3
+Lenguaje: Java
+Versión de Java: 23
+Packaging: JAR
+Nombre del proyecto: blogpersonal
+Group ID: com.tudominio (o el que hayas seleccionado)
+Artifact ID: blogpersonal
